@@ -1,2 +1,3 @@
 # ACOUSTIC-WORK
-THis research is about Predicting Lithology based on Raw acoustic signals from drilling. 
+ 
+This project applies machine learning to predict subsurface lithology in real time using acoustic signals generated during drilling. Acoustic features such as dominant frequency, amplitude, and spectral centroid were extracted from drilling audio data from the Johan Sverdrup 16/2-6 well and used to train three models: Multi-Layer Perceptron (MLP), XGBoost (XGB), and a hybrid MLP-XGB model. The hybrid model achieved the best performance with 88% test accuracy and 85.7% validation accuracy against core sample data, showing strong agreement with actual lithologies. Feature importance analysis confirmed the significance of the extracted acoustic parameters for formation identification, highlighting the potential of this approach for near-real-time lithology prediction during drilling operations.
